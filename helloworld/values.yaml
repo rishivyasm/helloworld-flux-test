@@ -4,7 +4,7 @@ kubernetes:
 helloworld:
   namespace: default
   image:
-    name: hello-world
+    name: tum-tum/hello-world
     tag: latest
     pullPolicy: IfNotPresent
   service:
